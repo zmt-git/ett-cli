@@ -1,0 +1,33 @@
+{
+  "name": "ett",
+  "version": "1.0.1",
+  "description": "express+typescript+typeorm+mysql template",
+  "main": "cli.js",
+  "bin": "/src/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src"
+  ],
+  "author": {
+    "name": "zmt",
+    "email": "zmt819@126.com"
+  },
+  "keywords": [
+    "express-ts-typeorm-cli",
+    "cli",
+    "脚手架"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "4.1.2",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.0"
+  }
+}
