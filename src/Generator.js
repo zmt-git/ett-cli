@@ -30,7 +30,7 @@ class Generator {
   }
 
   async getRepo () {
-    const reposList = await wrapLoading(getRepoList, 'waiting fetching repos')
+    const reposList = await wrapLoading(getRepoList, 'waiting fetching repositories')
 
     if (!reposList) return
 
@@ -72,9 +72,9 @@ class Generator {
     if (res !== null) {
       console.log(`cd ${chalk.green(this.name)}`)
 
-      console.log(chalk.green('npm install | yarn'))
+      console.log(chalk.green('npm install'))
 
-      console.log(chalk.green('npm run dev | yarn dev'))
+      console.log(chalk.green('npm run dev'))
     } else {
       console.log(chalk.red('download template failed'))
     }
