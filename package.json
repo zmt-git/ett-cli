@@ -1,18 +1,18 @@
 {
   "name": "ett",
   "version": "1.0.1",
-  "description": "express+typescript+typeorm+mysql template",
+  "description": "express-typescript-typeorm-mysql template",
   "main": "cli.js",
   "bin": "/src/cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "src"
   ],
   "author": {
     "name": "zmt",
-    "email": "zmt819@126.com"
+    "email": "zmt_email@163.com"
   },
   "keywords": [
     "express-ts-typeorm-cli",
