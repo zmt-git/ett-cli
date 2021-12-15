@@ -1,4 +1,4 @@
-## ett template
+## ett
 
 快速搭建nodejs的后台服务模板，模板采用express + ts + typeorm + mysql
 
